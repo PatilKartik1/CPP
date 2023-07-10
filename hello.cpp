@@ -54,13 +54,15 @@ int main()
     // double i = 1;
     // cout << sizeof(i) << endl;
 
-    int i = 0;
+    // int i = 0;
 
-    do
-    {
-        cout << i << endl;
-        i++;
-    } while (i <= 5);
+    // do
+    // {
+    //     cout << i << endl;
+    //     i++;
+    // } while (i <= 5);
+
+    cout << pow(2, 4) << endl;
 
     return 0;
 }
