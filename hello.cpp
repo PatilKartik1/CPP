@@ -62,7 +62,8 @@ int main()
     //     i++;
     // } while (i <= 5);
 
-    cout << pow(2, 4) << endl;
+    cout << "Ans is"
+         << " " << pow(2, 4) << endl;
 
     return 0;
 }
