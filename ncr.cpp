@@ -22,7 +22,7 @@ int ncr(int n, int r)
 int main()
 {
     int n, r;
-    cin >> n >> r;\
+    cin >> n >> r;
 
     ncr(n, r);
 }
