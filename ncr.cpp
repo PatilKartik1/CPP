@@ -16,8 +16,6 @@ int ncr(int n, int r)
     int denom = factorial(r) * factorial(n - r);
     int ans = num / denom;
     cout << "answer: " << ans << endl;
-
-   
 }
 int main()
 {
