@@ -14,9 +14,13 @@ int main()
 
     //     cout << num2[1] << endl;
 
-    int num3[10] = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
+    int num2[10] = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
     for (int i = 0; i < 10; i++)
     {
-        cout << num3[i] << endl;
+        cout << num2[i] << endl;
     }
+
+    int num3[10] = {2,7};
+
+
 }
