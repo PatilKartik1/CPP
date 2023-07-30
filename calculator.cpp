@@ -10,34 +10,31 @@ int main()
 
     cout << "Enter value of a and b:";
     cin >> a >> b;
-    while (1)
+
+    switch (choice)
     {
-        switch (choice)
-        {
-        case '+':
-            cout << a + b << endl;
-            break;
+    case '+':
+        cout << a + b << endl;
+        break;
 
-        case '-':
-            cout << a - b << endl;
-            break;
+    case '-':
+        cout << a - b << endl;
+        break;
 
-        case '*':
-            cout << a * b << endl;
-            break;
+    case '*':
+        cout << a * b << endl;
+        break;
 
-        case '/':
-            cout << a / b << endl;
-            break;
+    case '/':
+        cout << a / b << endl;
+        break;
 
-        case '%':
-            cout << a % b << endl;
-            break;
+    case '%':
+        cout << a % b << endl;
+        break;
 
-        default:
-            cout << "Please enter a valid operation" << endl;
-            break;
-            exit(0);
-        }
+    default:
+        cout << "Please enter a valid operation" << endl;
+        break;
     }
 }
