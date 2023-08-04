@@ -12,6 +12,7 @@ int search(int arr[], int n, int key)
     }
     return 0;
 }
+
 int main()
 {
     int arr[5] = {1, 2, 3, 4, 5};
