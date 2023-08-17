@@ -4,11 +4,13 @@ int update(int a)
 {
     int ans = a * a;
 
-    return ans;
+    cout << ans<<endl;
 }
 int main()
 {
     int a = 14;
-    a = update(a);
+    update(a);
     cout << a << endl;
+    
+    
 }
