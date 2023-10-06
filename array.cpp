@@ -20,7 +20,5 @@ int main()
         cout << num2[i] << endl;
     }
 
-    int num3[10] = {2,7};
-
-
+    int num3[10] = {2, 7};
 }

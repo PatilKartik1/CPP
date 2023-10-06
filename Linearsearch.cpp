@@ -7,10 +7,10 @@ int search(int arr[], int n, int key)
     {
         if (arr[i] == key)
         {
-            return 1;
+            return i;
         }
     }
-    return 0;
+    return -1;
 }
 
 int main()
@@ -20,13 +20,13 @@ int main()
     int key;
     cin >> key;
 
-    bool found = search(arr, 5, key);
-    if (found)
+    int found = search(arr, 5, key);
+    if (found == -1)
     {
-        cout << "Key is Present" << endl;
+        cout << "Key is not  Present" << endl;
     }
     else
     {
-        cout << "key is Absent" << endl;
+        cout << "key is present at" << found << "Index" << endl;
     }
 }

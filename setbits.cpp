@@ -17,5 +17,5 @@ int main()
     cin >> a >> b;
 
     cout << setbit(a) + setbit(b) << endl;
-    return 0; 
+    return 0;
 }

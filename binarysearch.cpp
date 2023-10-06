@@ -28,6 +28,10 @@ int main()
     int arr[6] = {2, 4, 6, 8, 12, 18};
     int arr1[5] = {3, 8, 11, 14, 16};
 
-    int index = binarysearch(arr, 6, 4);
-    cout << index << endl;
+    int key;
+    cin >> key;
+    int index = binarysearch(arr1, 5, key);
+    bool found = index;
+
+    cout << "Element is present at index " << index << endl;
 }

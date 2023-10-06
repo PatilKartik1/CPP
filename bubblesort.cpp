@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int n,temp;
+    int n    ;
     cout<<"Enter length :";
     cin >> n;
     int arr[100];
