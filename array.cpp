@@ -1,24 +1,41 @@
 #include <iostream>
+#include <climits>
 using namespace std;
+
+// int min(int arr[], int n)
+// {
+
+//     int min = INT_MAX;
+
+//     for (int i = 0; i < n; i++)
+//     {
+//         if (min > arr[i])
+//         {
+//             min = arr[i];
+//         }
+//     }
+//     return min;
+// }
+// int max(int arr[], int n)
+// {
+
+//     int max = INT_MIN;
+
+//     for (int i = 0; i < n; i++)
+//     {
+//         if (max < arr[i])
+//         {
+//             max = arr[i];
+//         }
+//     }
+//     return max;
+// }
+
 int main()
 {
-    //     int num[1000];
-    //     fill_n(num, 1000, 11);
+    int arr[5] = {11, 24, 52, 83, 94};
 
-    //     cout << num[10] << endl;
+    int sum = 0;
 
-    // int num1[15];
-    // cout << num1[14] << endl;
-
-    //     int num2[10] = {2, 4, 6};
-
-    //     cout << num2[1] << endl;
-
-    int num2[10] = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
-    for (int i = 0; i < 10; i++)
-    {
-        cout << num2[i] << endl;
-    }
-
-    int num3[10] = {2, 7};
+    
 }
