@@ -12,7 +12,7 @@ int main()
         // Print numbers from 1 to n
         while (j <= n)
         {
-            std::cout << j;
+            std::cout << j<<" ";
             j++;
         }
 
@@ -20,7 +20,7 @@ int main()
         int asterisks = 2 * (i - 1);
         while (asterisks > 0)
         {
-            std::cout << "*";
+            std::cout << "* ";
             asterisks--;
         }
 
@@ -28,7 +28,7 @@ int main()
         j = n;
         while (j >= 1)
         {
-            std::cout << j;
+            std::cout << j<<" ";
             j--;
         }
 

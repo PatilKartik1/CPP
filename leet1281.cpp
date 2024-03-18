@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 int digitProductSumDifference(int n)
 {
     int product = 1;
@@ -20,7 +20,7 @@ int main()
 {
     int n = 234;
     int difference = digitProductSumDifference(n);
-    std::cout << "Difference: " << difference << std::endl;
+    cout << "Difference: " << difference << endl;
 
     return 0;
 }

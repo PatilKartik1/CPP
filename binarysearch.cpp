@@ -29,6 +29,7 @@ int main()
     int arr1[5] = {3, 8, 11, 14, 16};
 
     int key;
+    cout<<"Enter key!!";
     cin >> key;
     int index = binarysearch(arr1, 5, key);
     bool found = index;

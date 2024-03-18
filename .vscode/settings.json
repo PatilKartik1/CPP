@@ -9,6 +9,8 @@
     "utility": "cpp",
     "ostream": "cpp",
     "algorithm": "cpp",
-    "vector": "cpp"
-  }
+    "vector": "cpp",
+    "AFK.C": "cpp"
+  },
+  "git.ignoreLimitWarning": true
 }

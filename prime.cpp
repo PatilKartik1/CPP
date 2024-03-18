@@ -10,6 +10,7 @@ int main()
     {
         if (n % i == 0)
         {
+
             cout << i << " is not a prime no" << endl;
         }
         else
