@@ -9,7 +9,7 @@ int main()
     while (i <= n)
     {
         if (n % i == 0)
-        {
+        { 
 
             cout << i << " is not a prime no" << endl;
         }
