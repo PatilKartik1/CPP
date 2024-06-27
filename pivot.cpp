@@ -8,7 +8,7 @@ int pivot(int arr[], int n)
 
     while (start < end)
     {
-        if (arr[mid] >= arr[0])
+        if (arr[mid] > arr[end])
         {
             start = mid + 1;
         }
@@ -16,14 +16,14 @@ int pivot(int arr[], int n)
         {
             end = mid;
         }
-        mid = (start + end) / 2;
+        mid = (start + end) / 2; 
     }
-    return start;
+    return arr[start];
 }
 int main()
 {
 
-    int arr[5] = {3,7, 9, 1, 2};
-
-    cout << "pivot is " << pivot(arr, 5);
+    int arr[7] = {9,8, 7,6,1,2,3};
+ 
+    cout << "pivot is " << pivot(arr, 6);
 }

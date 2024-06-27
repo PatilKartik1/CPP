@@ -8,7 +8,7 @@ int main()
 
     v.push_back(1);
     cout << "Capacity->" << v.capacity() << endl;
-  
+
     v.push_back(2);
     cout << "Capacity->" << v.capacity() << endl;
 
@@ -16,7 +16,7 @@ int main()
     cout << "Capacity->" << v.capacity() << endl;
     cout << "size->" << v.size() << endl;
 
-    cout << "Element at 2nd position->" << v.at(0) << endl;
+    cout << "Element at 0nd position->" << v.at(2) << endl;
 
     cout << "Front " << v.front() << endl;
     cout << "back " << v.back() << endl;
@@ -36,8 +36,9 @@ int main()
         cout << i << " ";
     }
 
-    cout << endl <<"before clear size" << v.size() << endl;
+    cout << endl
+         << "before clear size " << v.size() << endl;
     v.clear();
 
-    cout << "After clear size" << v.size() << endl;
+    cout << "After clear size " << v.size() << endl;
 }

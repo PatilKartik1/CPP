@@ -26,7 +26,7 @@ int main()
 
     int key;
     cin >> key;
-
+ 
     int found = search(arr, n, key);
     if (found == -1)
     {
@@ -34,6 +34,6 @@ int main()
     }
     else
     {
-        cout << "key is present at" << found << "Index" << endl;
+        cout << "key is present at " << found << " Index" << endl;
     }
 }

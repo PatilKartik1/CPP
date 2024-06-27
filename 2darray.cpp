@@ -2,23 +2,23 @@
 using namespace std;
 int main()
 {
-    int a, b;
-    cout << "Enter array length" << endl;
-    cin >> a >> b;
+    int rows, colums;
+    cout << "Enter array rows & columns" << endl;
+    cin >> rows >> colums;
 
     int arr[100][100];
     cout << "Enter array elements" << endl;
-    for (int i = 0; i < a; i++)
+    for (int i = 0; i < rows; i++)
     {
-        for (int j = 0; j < b; j++)
+        for (int j = 0; j < colums; j++)
         {
             cin >> arr[i][j];
         }
     }
 
-    for (int i = 0; i < a; i++)
+    for (int i = 0; i < rows; i++)
     {
-        for (int j = 0; j < b; j++)
+        for (int j = 0; j < colums; j++)
         {
             cout << arr[i][j] << " ";
         }
