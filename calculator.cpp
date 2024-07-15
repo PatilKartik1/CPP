@@ -35,6 +35,5 @@ int main()
 
     default:
         cout << "Please enter a valid operation" << endl;
-        break;
     }
 }
